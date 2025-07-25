@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8ff;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header {
+  background-color: #4e73df;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
